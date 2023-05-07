@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="styls.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon-32x32.png"
+    />
+
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>모바일시스템공학과 20학번 하태웅</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">약력</a></li>
+        <li><a href="#skills" class="nav-link">음악 추천</a></li>
+        <li><a href="#projects" class="nav-link">음식 추천</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="profile_face.jpg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title"></h2>
+        <p class="bio-text">
+          단국대학교 모바일시스템공학과 재학중<br>
+          20학번 4학년 1학기 재학중<br>
+          좋아하는 것: 게임, 축구보기 등
+        </p>
+      </div>
+    </section>
+
+
+    
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">음악 추천</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Qc7_zRjH808" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Bq0JS2uiduE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <br>재생이 안되서 유튜브로 직접 가서 봐야됩니다
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">음식 추천</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="김치찌개.jpg"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">김치찌개</h3>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="제육볶음.jpg"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">제육볶음</h3>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="짬뽕.jpg"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">짬뽕</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Website scripts -->
+    <script src="app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
